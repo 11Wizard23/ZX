@@ -1,0 +1,39 @@
+.leftSideBar {
+	position: fixed;
+	background: linear-gradient(var(--primary-color) 0%, var(--secundary-color) 100%);
+	width: 100px;
+	z-index: 29000;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	height: 350px;
+	transition: all 0.5s;
+}
+
+.leftSideBar__list {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	width: 45px;
+	margin-top: auto;
+}
+
+.leftSideBar__list::after {
+	content: "";
+	display: block;
+	width: 2px;
+	height: 90px;
+	margin: 0px auto;
+	background: var(--lines-color);
+}
+
+.leftSideBar__list__link__icon {
+	width: 100%;
+}
+
+@media (max-width: 760px){
+	.leftSideBar{
+		transform: translateX(-100%);
+	}
+}

@@ -1,0 +1,29 @@
+.general {
+	min-height: calc(100vh - 100px);
+	padding: 80px 40px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.general__titulo {
+	display: flex;
+  font-family: share tech mono;
+  white-space: nowrap;
+}
+
+.general__titulo::after {
+	content: "";
+	display: block;
+	position: relative;
+	top: 15px;
+	width: 300px;
+	height: 3px;
+	margin-left: 20px;
+	background-color: var(--lines-color);
+}
+
+@media (max-width : 620px){
+  .general__titulo::after{
+    width: 100%;
+  }
+}

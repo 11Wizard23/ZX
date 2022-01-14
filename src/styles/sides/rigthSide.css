@@ -26,7 +26,12 @@
   margin-top: -190px;
 	margin-right: -3px;
 	font-family: Ubuntu Mono;
+	transition: all 0.5s;
+	cursor: pointer;
+}
 
+.email__link:hover{
+	transform: rotate(90deg) translateX(-5px);
 }
 
 .rigthSideBar__list::after {

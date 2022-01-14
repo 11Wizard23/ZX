@@ -30,6 +30,12 @@
 
 .leftSideBar__list__link__icon {
 	width: 100%;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.leftSideBar__list__link__icon:hover{
+	transform: translateY(-5px);
 }
 
 @media (max-width: 760px){

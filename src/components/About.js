@@ -15,7 +15,7 @@ export default function About() {
 					<h3 className="about__div__h3">Creando un futuro más inteligente.</h3>
 				</div>
 				<div className="about__div">
-					<p className="about__div__p">Estudiante de ingeniería en sistemas, actualmente enfocado en el desarrolo web Full Stack. Proyectos mujy cercanos a la electrónica, pero siempre donde se necesite código.</p>
+					<p className="about__div__p">Estudiante de ingeniería en sistemas, actualmente enfocado en el desarrolo web Full Stack. Proyectos muy cercanos a la electrónica, pero siempre donde se necesite código.</p>
 				</div>
 			</div>
 		</section>

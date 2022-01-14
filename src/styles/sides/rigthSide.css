@@ -23,7 +23,10 @@
 .email__link{
   color: var(--lines-color);
   transform: rotate(90deg);
-  margin-top: -180px;
+  margin-top: -190px;
+	margin-right: -3px;
+	font-family: Ubuntu Mono;
+
 }
 
 .rigthSideBar__list::after {

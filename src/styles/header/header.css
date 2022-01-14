@@ -48,6 +48,7 @@
 .header__nav__links__link {
 	cursor: pointer;
 	transition: all 0.3s;
+	font-family: Ubuntu Mono;
 }
 
 .header__nav__links__link:hover {

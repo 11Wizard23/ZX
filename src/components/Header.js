@@ -23,7 +23,6 @@ export default function Header() {
 							<li className="header__nav__links__link">Sobre Mi</li>
 							<li className="header__nav__links__link">Portafolio</li>
 							<li className="header__nav__links__link">Proyectos</li>
-							<li className="header__nav__links__link">Habilidades</li>
 							<li className="header__nav__links__link">Contacto</li>
 						</ul>
 						<button className="header__nav__links__cv">CV</button>

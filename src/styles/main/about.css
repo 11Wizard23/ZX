@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Kreon:wght@400;500&family=Ubuntu+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Kreon:wght@400;500&family=Share+Tech+Mono&family=Ubuntu+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Kreon:wght@400;500&family=Nova+Mono&family=Red+Hat+Mono:wght@300&family=Share+Tech+Mono&family=Ubuntu+Mono&display=swap');
 .about{
   padding: 0px 40px;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .about__section__container{
   display: flex;
   flex-direction: column;
   align-content: center;
+  max-width: 800px;
 }
 
 .about__div{
@@ -34,7 +33,6 @@
 .about__div__h3{
   color: rgb(61, 42, 42);
   font-family: Ubuntu Mono;
-
   font-size: clamp(40px, 6.8vw, 60px);
 }
 

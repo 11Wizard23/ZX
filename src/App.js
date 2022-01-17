@@ -9,20 +9,23 @@ import RigthSide from "./components/RigthSide"
 import About from "./components/About";
 import About2 from "./components/About2";
 import Briefcase from "./components/Briefcase";
+import { useEffect } from "react";
+
+import Scroll from "react-scroll"
 
 function App() {
-	return (
-		<>
+		return (
+		<div>
 			<Header />
       <LeftSide />
 			<RigthSide />
-			<main className="normalize__container">
+			<main className="normalize__container" >
 				<About />
 				<About2 />
 				<Briefcase />
 			</main>
 
-		</>
+		</div>
 	);
 }
 

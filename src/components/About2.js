@@ -20,12 +20,12 @@ export default function About2() {
 				</div>
 				<div className="aboutme">
 					<div className="aboutme__text">
-						<p className="aboutme__text__p">
+						<p className="genereal__text__p">
 							Hola, mi nombre es Esteban; empecé mi vida como programador en el 2016 con simples códigos para arduino, luego en la universidad mientras estudiaba una carrera que no era completamente para mi, descrubrí que el código en su totalidad era lo que verdaderamente quería estudiar.
 						</p>
-						<p className="aboutme__text__p">Empece buscando mi camino con C++, pasando por python y Java, pero encontré lo que más me apasiona cuando llegué al desarrollo web. Ahora la programación más el estimulo visual era lo que necesitaba para sentime completo</p>
+						<p className="genereal__text__p">Empece buscando mi camino con C++, pasando por python y Java, pero encontré lo que más me apasiona cuando llegué al desarrollo web. Ahora la programación más el estimulo visual era lo que necesitaba para sentime completo</p>
 						<div className="skills__container">
-							<p className="aboutme__text__p">Aquí las habilidades que actualmente me considero con nivel medio/alto y aun sigo en formación:</p>
+							<p className="genereal__text__p">Aquí las habilidades que actualmente me considero con nivel medio/alto y aun sigo en formación:</p>
 							<div className="skills">
 								<div className="skill">
 									<img className="skill__logo" src={nodeLogo} />
@@ -37,11 +37,11 @@ export default function About2() {
 								</div>
 								<div className="skill">
 									<img className="skill__logo" src={sqlLogo} />
-									<h3 className="skill__text">Node.js</h3>
+									<h3 className="skill__text">SQL</h3>
 								</div>
 								<div className="skill">
 									<img className="skill__logo" src={phpLogo} />
-									<h3 className="skill__text">Node.js</h3>
+									<h3 className="skill__text">PHP</h3>
 								</div>
 							</div>
 						</div>

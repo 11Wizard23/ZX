@@ -10,7 +10,11 @@
 	background-color: var(--secundary-color);
   z-index: 30000;
 	text-shadow: none;
-	transition: all 0.2s;
+	transition: all 0.5s;
+}
+
+.oculto{
+	transform: translateY(-100px);
 }
 
 .header__nav {

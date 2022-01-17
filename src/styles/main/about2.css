@@ -8,15 +8,17 @@
 	grid-column: 1/3;
 }
 
-.aboutme__text__p{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	margin-top: 20px;
-}
-
 .skills{
 	display: grid;
 	margin-top: 10px;
 	grid-template-columns: repeat(4 , 1fr);
+}
+
+.skill{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
 }
 
 .skill__text{

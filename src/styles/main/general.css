@@ -3,6 +3,7 @@
 	padding: 80px 40px 0;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .general__titulo {
@@ -20,6 +21,11 @@
 	height: 3px;
 	margin-left: 20px;
 	background-color: var(--lines-color);
+}
+
+.genereal__text__p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-top: 20px;
 }
 
 @media (max-width : 620px){

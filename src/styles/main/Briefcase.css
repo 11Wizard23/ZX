@@ -1,3 +1,64 @@
-.Briefcase{
+.briefcase__list__container {
+	display: grid;
+  margin-top: 20px;
+  gap: 30px;
+}
 
+.briefcase__list__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+}
+
+.briefcase__list__item__logo {
+  width: 100%;
+  max-width: 250px;
+  grid-column: 1/2;
+}
+
+.briefcase__list__item__text{
+  padding: 10px;
+  grid-column: 2/4;
+}
+
+.briefcase__list__item__text__h3{
+  font-family: Ubuntu Mono;
+  cursor: pointer;
+}
+
+.briefcase__list__item__text__p{
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 60px;
+}
+
+.briefcase__list__item__flexedText{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.briefcase__list__item__flexedText__container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.briefcase__list__item__text__ul{
+  list-style: disc;
+  padding-left: 5px;
+}
+
+.briefcase__list__item__text__ul li{
+  margin: 5px 0;
+}
+
+@media (max-width: 620px){
+  .briefcase__list__item__logo{
+    grid-column: 1/-1;
+  }
+  .briefcase__list__item__text{
+    grid-column: 1/-1;
+  }
 }

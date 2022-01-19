@@ -6,7 +6,7 @@ export default function RigthSide() {
 		<div className="rigthSideBar">
 			<ul className="rigthSideBar__list">
 				<li className="rigthSideBar__list__link ">
-					<div className="email__link">1123garciacano@gmail.com</div>
+					<div className="email__link"><a href="mailto:1123garciacano@gmail.com">1123garciacano@gmail.com</a></div>
 				</li>
 			</ul>
 		</div>

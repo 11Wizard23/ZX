@@ -54,6 +54,11 @@
   margin: 5px 0;
 }
 
+.briefcase__list__item__text a{
+  text-decoration: none;
+  color: var(--lines-color);
+}
+
 @media (max-width: 620px){
   .briefcase__list__item__logo{
     grid-column: 1/-1;

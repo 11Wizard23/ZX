@@ -1,0 +1,24 @@
+html::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+html::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+html::-webkit-scrollbar-button:increment,html::-webkit-scrollbar-button {
+  display: none;
+} 
+
+html::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--lines-color);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}

@@ -1,0 +1,39 @@
+.contact_area{
+  padding: 120px 20px;
+}
+
+.texto__contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.texto__contact h2{
+  font-family: Ubuntu Mono;
+  color: var(--lines-color);
+  font-size: 27px;
+}
+
+.texto__contact h3{
+  font-family: share tech mono;
+  font-size: 22px;
+  text-align: center;
+}
+
+.SendmeAMail{
+  display: flex;
+  justify-content: center;
+}
+
+.imgMail{
+  margin-top: 15px;
+  filter: drop-shadow(0px 0px 10px var(--lines-color));
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.imgMail:hover{
+  transform: translateY(-5px);
+}

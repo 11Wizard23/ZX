@@ -1,5 +1,6 @@
 .about{
   padding-top:20px;
+	justify-content: center;
 }
 
 .about__section__container{
@@ -33,4 +34,10 @@
 .about__div__p{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   max-width: 40vw;
+}
+
+@media (max-width: 760px){
+  .about__div__p{
+    max-width: 80%;
+  }
 }

@@ -1,0 +1,38 @@
+.footer{
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--lines-color);
+  padding: 20px;
+}
+
+.footer h4{
+  font-family: Share tech mono;
+  text-align: center;
+  font-size: calc(0.7em + 0.5vw);
+}
+
+.prefooterRedes__ul{
+  visibility: hidden;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  padding: 0;
+}
+
+.prefooterRedes__ul li{
+  transition: all 0.5s;
+}
+
+.prefooterRedes__ul li:hover{
+  transform: translateY(-5px);
+}
+
+@media (max-width: 760px){
+  .prefooterRedes__ul{
+    visibility: visible;
+  }
+}
